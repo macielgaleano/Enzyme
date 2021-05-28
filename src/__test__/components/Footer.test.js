@@ -9,6 +9,6 @@ describe('<Footer />', () => {
     expect(footer.length).toEqual(1);
   });
   test('Render del titulo', () => {
-    expect(footer.find('.Footer-title').text()).toEqual('Platzi Store');
+    expect(footer.find('.Footer-title').text()).toEqual('Maciel Store');
   });
 });
